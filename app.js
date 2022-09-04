@@ -99,17 +99,3 @@ io.on("connect", (socket) =>{
  
 
 const bcrypt = require("bcrypt")
-
-
-// const addAdmin = async ()=>{
-// const adminPass = "slaptas1"
-// const hash = await bcrypt.hash(adminPass, 10)
-// const admin = new adminDB({
-
-//     username: "adminas1",
-//     password:  hash
-// })
-// await admin.save()
-// }
-
-// addAdmin()
